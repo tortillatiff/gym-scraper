@@ -36,16 +36,10 @@ jobs:
         run: python scraper.py
 
       - name: Commit and push data
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add gym_capacity_data.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update gym capacity data - $(date)"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/tortillatiff/gym-scraper.git HEAD:main
-          fi
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Update gym capacity data - ${{ github.run_id }}'
+          file_pattern: 'gym_capacity_data.json'
 
       - name: Upload data as artifact (backup)
         uses: actions/upload-artifact@v4
