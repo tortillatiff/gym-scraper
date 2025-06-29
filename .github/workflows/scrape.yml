@@ -40,10 +40,12 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add gym_capacity_data.json
-          git diff --staged --quiet || git commit -m "Update gym capacity data - $(date)"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update gym capacity data - $(date)"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/tortillatiff/gym-scraper.git HEAD:main
+          fi
 
       - name: Upload data as artifact (backup)
         uses: actions/upload-artifact@v4
