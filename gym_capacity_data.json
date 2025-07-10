@@ -31138,5 +31138,178 @@
         "status": "Low"
       }
     ]
+  },
+  {
+    "timestamp": "2025-07-10T08:14:14.141590",
+    "gyms": [
+      {
+        "name": "ActiveSG Gym @ Ang Mo Kio CC",
+        "percentage_full": 50.0,
+        "timestamp": "2025-07-10T08:14:13.516491",
+        "status": "Medium"
+      },
+      {
+        "name": "Bukit Gombak ActiveSG Gym",
+        "percentage_full": 52.0,
+        "timestamp": "2025-07-10T08:14:13.536566",
+        "status": "Medium"
+      },
+      {
+        "name": "ActiveSG Hockey Village @ Boon Lay Gym",
+        "percentage_full": 25.0,
+        "timestamp": "2025-07-10T08:14:13.555918",
+        "status": "Low"
+      },
+      {
+        "name": "Kallang Basin ActiveSG Gym",
+        "percentage_full": 21.0,
+        "timestamp": "2025-07-10T08:14:13.575426",
+        "status": "Low"
+      },
+      {
+        "name": "Katong ActiveSG Gym",
+        "percentage_full": 49.0,
+        "timestamp": "2025-07-10T08:14:13.594859",
+        "status": "Medium"
+      },
+      {
+        "name": "Bukit Canberra ActiveSG Gym",
+        "percentage_full": 43.0,
+        "timestamp": "2025-07-10T08:14:13.614497",
+        "status": "Medium"
+      },
+      {
+        "name": "Bishan ActiveSG Gym",
+        "percentage_full": 79.0,
+        "timestamp": "2025-07-10T08:14:13.634688",
+        "status": "High"
+      },
+      {
+        "name": "Bukit Batok ActiveSG Gym",
+        "percentage_full": 60.0,
+        "timestamp": "2025-07-10T08:14:13.655178",
+        "status": "Medium"
+      },
+      {
+        "name": "Sengkang ActiveSG Gym",
+        "percentage_full": 62.0,
+        "timestamp": "2025-07-10T08:14:13.674853",
+        "status": "Medium"
+      },
+      {
+        "name": "ActiveSG Gym @ Fernvale Square",
+        "percentage_full": 43.0,
+        "timestamp": "2025-07-10T08:14:13.694595",
+        "status": "Medium"
+      },
+      {
+        "name": "Pasir Ris ActiveSG Gym",
+        "percentage_full": 27.0,
+        "timestamp": "2025-07-10T08:14:13.714146",
+        "status": "Low"
+      },
+      {
+        "name": "Enabling Village ActiveSG Gym",
+        "percentage_full": 53.0,
+        "timestamp": "2025-07-10T08:14:13.734138",
+        "status": "Medium"
+      },
+      {
+        "name": "Delta ActiveSG Gym",
+        "percentage_full": 43.0,
+        "timestamp": "2025-07-10T08:14:13.754558",
+        "status": "Medium"
+      },
+      {
+        "name": "Clementi ActiveSG Gym",
+        "percentage_full": 68.0,
+        "timestamp": "2025-07-10T08:14:13.775624",
+        "status": "Medium"
+      },
+      {
+        "name": "Jalan Besar ActiveSG Gym",
+        "percentage_full": 55.0,
+        "timestamp": "2025-07-10T08:14:13.796991",
+        "status": "Medium"
+      },
+      {
+        "name": "ActiveSG Gym @ Serangoon Central",
+        "percentage_full": 46.0,
+        "timestamp": "2025-07-10T08:14:13.816877",
+        "status": "Medium"
+      },
+      {
+        "name": "ActiveSG Gym @ Toa Payoh West CC",
+        "percentage_full": 22.0,
+        "timestamp": "2025-07-10T08:14:13.836872",
+        "status": "Low"
+      },
+      {
+        "name": "Yio Chu Kang ActiveSG Gym",
+        "percentage_full": 51.0,
+        "timestamp": "2025-07-10T08:14:13.856926",
+        "status": "Medium"
+      },
+      {
+        "name": "ActiveSG Gym @ Toa Payoh",
+        "percentage_full": 43.0,
+        "timestamp": "2025-07-10T08:14:13.876869",
+        "status": "Medium"
+      },
+      {
+        "name": "Yishun ActiveSG Gym",
+        "percentage_full": 33.0,
+        "timestamp": "2025-07-10T08:14:13.897678",
+        "status": "Medium"
+      },
+      {
+        "name": "Tampines ActiveSG Gym",
+        "percentage_full": 48.0,
+        "timestamp": "2025-07-10T08:14:13.919493",
+        "status": "Medium"
+      },
+      {
+        "name": "Senja-Cashew Gym",
+        "percentage_full": 84.0,
+        "timestamp": "2025-07-10T08:14:13.941651",
+        "status": "High"
+      },
+      {
+        "name": "Heartbeat @ Bedok ActiveSG Gym",
+        "percentage_full": 41.0,
+        "timestamp": "2025-07-10T08:14:13.962076",
+        "status": "Medium"
+      },
+      {
+        "name": "Jurong Lake Gardens Gym",
+        "percentage_full": 25.0,
+        "timestamp": "2025-07-10T08:14:13.982300",
+        "status": "Low"
+      },
+      {
+        "name": "Choa Chu Kang ActiveSG Gym",
+        "percentage_full": 46.0,
+        "timestamp": "2025-07-10T08:14:14.002169",
+        "status": "Medium"
+      },
+      {
+        "name": "Woodlands ActiveSG Gym",
+        "percentage_full": 40.0,
+        "timestamp": "2025-07-10T08:14:14.032207",
+        "status": "Medium"
+      },
+      {
+        "name": "Jurong West ActiveSG Gym",
+        "percentage_full": 24.0,
+        "timestamp": "2025-07-10T08:14:14.052808",
+        "status": "Low"
+      },
+      {
+        "name": "Jurong East ActiveSG Gym",
+        "percentage_full": 0.0,
+        "timestamp": "2025-07-10T08:14:14.074178",
+        "status": "Low"
+      }
+    ]
   }
 ]
