@@ -73,7 +73,8 @@ class ActiveSGSeleniumScraper:
                     gym_data = {
                         'name': gym_name,
                         'percentage_full': percentage,
-                        'timestamp': datetime.datetime.now().isoformat(),
+                        # Add 8 hours to UTC to get SGT
+                        'timestamp': (datetime.datetime.now() + datetime.timedelta(hours=8)).isoformat()
                         'status': self.get_capacity_status(percentage)
                     }
                     
@@ -131,7 +132,8 @@ class ActiveSGSeleniumScraper:
         
         # Add timestamp to the new data entry
         entry = {
-            'timestamp': datetime.datetime.now().isoformat(),
+            # Add 8 hours to UTC to get SGT
+            'timestamp': (datetime.datetime.now() + datetime.timedelta(hours=8)).isoformat()
             'gyms': new_data
         }
         
